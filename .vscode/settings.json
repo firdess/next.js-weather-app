@@ -1,0 +1,5 @@
+{
+  "editor.codeActionsOnSave": { "source.fixAll.eslint": true},
+  "search.useGlobalIgnoreFiles": false,
+  "search.useParentIgnoreFiles": false
+}
