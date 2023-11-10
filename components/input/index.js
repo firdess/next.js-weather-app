@@ -14,7 +14,7 @@ export default function Input({ setCity}) {
   }
 
   return (
-    <div className="flex items-center justify-center w-full">
+    <div className="flex items-center justify-center w-full mb-5">
       <form onSubmit={submitHandler} className='flex gap-2 items-center'>
         <input
           type='text'
