@@ -10,7 +10,7 @@ const ICON = 'http://openweathermap.org/img/w'
 export default function Card({ name, country, dt, temp, tempUnit, weatherDesc, windSpeed, humidity, pressure, visibility, icon }) {
 
   return (
-    <div className='bg-slate-100   p-5 mt-5 dark:bg-gray-700 dark:text-white'>
+    <div className='bg-slate-100 p-5  dark:bg-gray-700 dark:text-white'>
       <div className='flex flex-col md:flex-row  gap-3'>
         <div className="w-[100px] h-[100px] object-cover">
           <img className='w-[100px] h-[100px] object-cover' alt="weather-icon" src={`${ICON}/${icon}.png`} />

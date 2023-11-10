@@ -31,7 +31,7 @@ export default function Cards() {
   return (
     <>
       {loading ? <Loading />
-        : (<div className='grid grid-cols-1 gap-2 lg:grid-cols-2 '>
+        : (<div className='grid grid-cols-1 gap-4 lg:grid-cols-2  '>
           {
             cardList.map((cityName, index) => {
               const cityWeatherData = weatherData.find(data => data.name === cityName);

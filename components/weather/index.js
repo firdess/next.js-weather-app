@@ -68,7 +68,7 @@ export default function Weather() {
         )
       }
       <div className='pt-8 px-7'>
-        <h2 className='font-bold text-xl'>Bazı İllerde Hava Durumu</h2>
+        <h2 className='font-bold text-xl mb-5'>Bazı İllerde Hava Durumu</h2>
         <Cards />
       </div>
     </div>
