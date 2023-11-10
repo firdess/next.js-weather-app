@@ -80,7 +80,7 @@ export default function WeatherDetailPage({ params }) {
 
   return (
     <div className='max-w-[1280px] mx-auto'>
-      <Link href={`/weather`} >
+      <Link href={`/`} >
         <div className='flex dark:bg-gray-700 ml-5  rounded-md items-center gap-1 border px-3 py-1 w-[100px] bg-slate-100'>
           <BsArrowLeftShort />
           Back
