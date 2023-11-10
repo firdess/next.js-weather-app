@@ -79,7 +79,7 @@ export default function WeatherDetailPage({ params }) {
   }, [hourly]);
 
   return (
-    <div className='max-w-[1280px] mx-auto'>
+    <div className='max-w-[1280px] mx-auto '>
       <Link href={`/`} >
         <div className='flex dark:bg-gray-700 ml-5  rounded-md items-center gap-1 border px-3 py-1 w-[100px] bg-slate-100'>
           <BsArrowLeftShort />
@@ -135,7 +135,7 @@ export default function WeatherDetailPage({ params }) {
                       </div>
                     </div>
                   </div>)}
-                <div className='mt-5'>
+                <div className='mt-5 px-7'>
                   <h2 className='font-bold text-xl'>Saatlik Tahmin</h2>
                   <table className='w-full border-collapse bg-slate-100 dark:bg-gray-700 mt-5'>
                     <thead>

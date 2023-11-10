@@ -18,8 +18,8 @@ export default function Header() {
   }, [theme])
 
   return (
-    <div className='w-full px-10 py-6 border-b border-b-slate-400 dark:bg-gray-700 bg-slate-100'>
-      <div className='max-w-[1440px] mx-auto flex justify-between'>
+    <div className='w-full  py-6 border-b border-b-slate-400 dark:bg-gray-700 bg-slate-100'>
+      <div className='max-w-[1280px] px-10 mx-auto flex justify-between'>
         <Link href={`/`} className='font-bold text-3xl'>
           Weather App
         </Link>
