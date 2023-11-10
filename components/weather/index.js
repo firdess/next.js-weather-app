@@ -34,7 +34,7 @@ export default function Weather() {
   }, [city])
 
   return (
-    <div className='max-w-[1280px] mx-auto h-full dark:bg-gray-800'>
+    <div className='container  mx-auto h-full dark:bg-gray-800'>
       <Input city={city} setCity={setCity} />
       <div>
         {loading ? <Loading />
@@ -67,7 +67,7 @@ export default function Weather() {
           </div>
         )
       }
-      <div className='pt-8'>
+      <div className='pt-8 px-10'>
         <h2 className='font-bold text-xl'>Bazı İllerde Hava Durumu</h2>
         <Cards />
       </div>

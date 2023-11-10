@@ -21,7 +21,7 @@ export default function Input({ setCity}) {
           placeholder='search'
           value={inputValue}
           onChange={handleInputChange}
-          className='w-[400px] dark:bg-gray-700 dark:border-none'
+          className='md:w-[400px]  dark:bg-gray-700 dark:border-none'
         />
         <button className='btn dark:bg-gray-700' type='submit' >Search</button>
       </form>
