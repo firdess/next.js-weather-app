@@ -79,16 +79,16 @@ export default function WeatherDetailPage({ params }) {
   }, [hourly]);
 
   return (
-    <div className='max-w-[1280px] mx-auto '>
+    <div className='container mx-auto py-5 '>
       <Link href={`/`} >
-        <div className='flex dark:bg-gray-700 ml-5  rounded-md items-center gap-1 border px-3 py-1 w-[100px] bg-slate-100'>
+        <div className='flex dark:bg-gray-700 ml-7  rounded-md items-center gap-1 border px-3 py-1 w-[100px] bg-slate-100'>
           <BsArrowLeftShort />
           Back
         </div>
       </Link>
       {
         loading ? <Loading />
-          : error ? <div className="flex  items-center dark:bg-gray-700 dark:text-white p-4 mb-4 text-sm capitalize text-blue-800 border w-1/2 mt-4 border-blue-300 rounded-lg bg-blue-50 " role="alert">{error}</div>
+          : error ? <div className="flex ml-7 items-center dark:bg-gray-700 dark:text-white p-4 mb-4 text-sm capitalize text-blue-800 border w-1/2 mt-4 border-blue-300 rounded-lg bg-blue-50 " role="alert">{error}</div>
             : (
               <>
                 {details && (

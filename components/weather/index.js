@@ -34,13 +34,13 @@ export default function Weather() {
   }, [city])
 
   return (
-    <div className='container  mx-auto h-full dark:bg-gray-800'>
+    <div className='container py-5  mx-auto h-full dark:bg-gray-800'>
       <Input city={city} setCity={setCity} />
       <div>
         {loading ? <Loading />
           : weatherData && (
-            <div className='w-full flex items-center justify-center' >
-              <Link href={`/weather/[name]`} as={`/weather/${weatherData.name}`} className='w-full lg:w-1/2'  >
+            <div className='min-w-[375px] px-7 flex items-center justify-center' >
+              <Link href={`/weather/[name]`} as={`/weather/${weatherData.name}`}  className='w-full lg:w-1/2' >
                 <Card
                   name={weatherData.name}
                   country={weatherData.sys.country}
@@ -67,7 +67,7 @@ export default function Weather() {
           </div>
         )
       }
-      <div className='pt-8 px-10'>
+      <div className='pt-8 px-7'>
         <h2 className='font-bold text-xl'>Bazı İllerde Hava Durumu</h2>
         <Cards />
       </div>

@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className} >
         <Provider attribute="class" >
           <Header />
-          <main className=' pt-5 pb-5 min-w-[375px] dark:bg-gray-800 min-h-screen'>{children}</main>
+          <main className='min-w-[375px] dark:bg-gray-800 min-h-screen'>{children}</main>
         </Provider>
       </body>
     </html>
